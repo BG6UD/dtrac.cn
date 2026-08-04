@@ -3629,3 +3629,48 @@ To http://192.168.10.11:8418/BG6UD/dtrac.cn.git
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 10 3023k   10  319k    0     0   591k      0  0:00:05 --:--:--  0:00:05  591k 21 3023k   21  655k    0     0   420k      0  0:00:07  0:00:01  0:00:06  420k 38 3023k   38 1152k    0     0   450k      0  0:00:06  0:00:02  0:00:04  450k 51 3023k   51 1551k    0     0   437k      0  0:00:06  0:00:03  0:00:03  437k 64 3023k   64 1935k    0     0   424k      0  0:00:07  0:00:04  0:00:03  423k 73 3023k   73 2223k    0     0   399k      0  0:00:07  0:00:05  0:00:02  379k 85 3023k   85 2591k    0     0   395k      0  0:00:07  0:00:06  0:00:01  387k 99 3023k   99 3008k    0     0   398k      0  0:00:07  0:00:07 --:--:--  372k100 3023k  100 3023k    0     0   400k      0  0:00:07  0:00:07 --:--:--  368k
 [2026-08-04 12:30:24] 下载成功：DTrac.apk
+[2026-08-04 12:30:24] git检测变更内容：【M  .gitignore
+M  active.csv
+M  amateur.csv
+M  satnogs.json
+M  sync_log.txt
+M  weather.csv】
+[2026-08-04 12:30:24] 检测到文件变更，执行提交
+[2026-08-04 12:30:24] 提交成功，直接推送仓库地址（不依赖origin）
+remote: . Processing 1 references        
+remote: Processed 1 references in total        
+To http://192.168.10.11:8418/BG6UD/dtrac.cn.git
+   524e7bb..3a06658  HEAD -> main
+[2026-08-04 12:30:29] 推送Gitea仓库成功
+[2026-08-04 12:30:29] ===== 同步任务结束 =====
+[2026-08-05 00:30:01] ===== 同步任务开始 =====
+[2026-08-05 00:30:01] 开始下载：https://dtrac.cn/download/amateur.csv -> amateur.csv
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 14956  100 14956    0     0  52603      0 --:--:-- --:--:-- --:--:-- 52848
+[2026-08-05 00:30:02] 下载成功：amateur.csv
+[2026-08-05 00:30:02] 开始下载：https://dtrac.cn/download/weather.csv -> weather.csv
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10909  100 10909    0     0  46379      0 --:--:-- --:--:-- --:--:-- 46619
+[2026-08-05 00:30:02] 下载成功：weather.csv
+[2026-08-05 00:30:02] 开始下载：https://dtrac.cn/download/active.csv -> active.csv
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 34 2403k   34  832k    0     0  1178k      0  0:00:02 --:--:--  0:00:02 1178k 52 2403k   52 1263k    0     0   735k      0  0:00:03  0:00:01  0:00:02  735k 69 2403k   69 1664k    0     0   614k      0  0:00:03  0:00:02  0:00:01  614k 86 2403k   86 2079k    0     0   563k      0  0:00:04  0:00:03  0:00:01  563k100 2403k  100 2403k    0     0   538k      0  0:00:04  0:00:04 --:--:--  538k
+[2026-08-05 00:30:06] 下载成功：active.csv
+[2026-08-05 00:30:06] 开始下载：https://dtrac.cn/download/satnogs.json -> satnogs.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 14 3403k   14  480k    0     0   422k      0  0:00:08  0:00:01  0:00:07  422k 26 3403k   26  911k    0     0   426k      0  0:00:07  0:00:02  0:00:05  426k 39 3403k   39 1327k    0     0   422k      0  0:00:08  0:00:03  0:00:05  422k 51 3403k   51 1743k    0     0   420k      0  0:00:08  0:00:04  0:00:04  420k 62 3403k   62 2143k    0     0   418k      0  0:00:08  0:00:05  0:00:03  430k 74 3403k   74 2543k    0     0   415k      0  0:00:08  0:00:06  0:00:02  413k 86 3403k   86 2959k    0     0   413k      0  0:00:08  0:00:07  0:00:01  407k 98 3403k   98 3359k    0     0   412k      0  0:00:08  0:00:08 --:--:--  406k100 3403k  100 3403k    0     0   415k      0  0:00:08  0:00:08 --:--:--  409k
+[2026-08-05 00:30:15] 下载成功：satnogs.json
+[2026-08-05 00:30:15] 开始下载：https://dtrac.cn/download/newversioncode.txt -> newversioncode.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     3  100     3    0     0     14      0 --:--:-- --:--:-- --:--:--    14
+[2026-08-05 00:30:15] 下载成功：newversioncode.txt
+[2026-08-05 00:30:15] 开始下载：https://dtrac.cn/download/DTrac.apk -> DTrac.apk
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 11 3023k   11  351k    0     0   569k      0  0:00:05 --:--:--  0:00:05  569k 25 3023k   25  768k    0     0   458k      0  0:00:06  0:00:01  0:00:05  457k 38 3023k   38 1167k    0     0   444k      0  0:00:06  0:00:02  0:00:04  444k 51 3023k   51 1567k    0     0   431k      0  0:00:07  0:00:03  0:00:04  431k 66 3023k   66 1999k    0     0   431k      0  0:00:07  0:00:04  0:00:03  431k 79 3023k   79 2400k    0     0   426k      0  0:00:07  0:00:05  0:00:02  409k 93 3023k   93 2815k    0     0   424k      0  0:00:07  0:00:06  0:00:01  413k100 3023k  100 3023k    0     0   424k      0  0:00:07  0:00:07 --:--:--  412k
+[2026-08-05 00:30:22] 下载成功：DTrac.apk
